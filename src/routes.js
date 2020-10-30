@@ -17,6 +17,7 @@
 
 */
 import Dashboard from "views/Dashboard.js";
+import Dailies from "Pages/Dailies.js";
 import Notifications from "views/Notifications.js";
 import Icons from "views/Icons.js";
 import Typography from "views/Typography.js";
@@ -31,6 +32,13 @@ var routes = [
     name: "Dashboard",
     icon: "nc-icon nc-bank",
     component: Dashboard,
+    layout: "/admin",
+  },
+  {
+    path: "/dailies",
+    name: "Dailies",
+    icon: "nc-icon nc-bank",
+    component: Dailies,
     layout: "/admin",
   },
   {
